@@ -11,8 +11,8 @@ This is a comparison between node 14 LTS worker threads and goroutines. We will 
 
 * single threaded node
 * worker-threads
-* single threaded go
-* goroutines
+* single goroutine
+* multiple goroutines
 
 ## Resource Overhead
 
