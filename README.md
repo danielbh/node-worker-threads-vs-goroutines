@@ -64,9 +64,9 @@ Go
 
 ### Hardware
 
-OS: Windows WSL Ubuntu
-Processor: i9-9000K 8 cores & 16 threads
-RAM: 32GB
+* OS: Windows WSL Ubuntu
+* Processor: i9-9000K 8 cores & 16 threads
+* RAM: 32GB
 
 ### Analysis
 
@@ -76,16 +76,16 @@ Rarely when comparing technologies used to make similar solutions is the decisio
 
 Go outperformed Node and was 125%. Go did up to 91 iterations in all cases while node did 40 in all cases. Single iterations for Go were ~3.5s 95 percentile while Node was ~8.94 percentile. 
 
-* Resource overhead
+#### Resource overhead
 
 Node used up to 1.4% host memory which is 444 mb in this case. While go never even went above 0.1%. This makes sense given that goroutines are much more lightweight than threads.
 
 For node something of concern regarding memory was that memory seemed to increase for each test. I did not restart the node server between tests. It seems there might be a memory leak somewhere. Not sure where. I looked at code, nothing seems obvious to me. Further work needed to determine cause.
 
-* Handling locks and modifying shared memory space between threads or goroutines
+#### Handling locks and modifying shared memory space between threads or goroutines
 
 Out of the box Go is much easier to use for manipulating shared memory between threads/goroutines. With some good libraries node could be there too. It is a drawback that the only shared colllection that offers atomic operations are int32 arrays. I have seen some workarounds/wrappers for this, so this could be fixed with a good library.
 
-* General code maintainability and ease-of-use.
+#### General code maintainability and ease-of-use.
 
 Go is way easier to use. Along with the results here, and the track record it has acquired over the past decade with highly mature projects I cannot at this time recommend node worker-threads over go with goroutines. Perhaps as node worker-threads mature they might become a better option, for now go will be my recommendation for CPU-intensive workloads.
