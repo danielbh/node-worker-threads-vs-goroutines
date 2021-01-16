@@ -28,7 +28,7 @@ web server with large loop, this will show in parallel cpu-intensive workload pe
 
 ### Experiment Two: 
 
-Web server receives large payload, transforms, saves to in-memory shared map to same key. This will show concurrency primitives and handling of shared memory
+Web server receives large payload, transforms, saves to in-memory shared map to same key. This will show concurrency primitives and handling mutation of shared memory
 
 // TODO: how to show results?
 
