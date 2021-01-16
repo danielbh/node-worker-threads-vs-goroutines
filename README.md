@@ -74,7 +74,7 @@ Rarely when comparing technologies used to make similar solutions is the decisio
 
 #### Performance
 
-Go outperformed Node and was 125%. Go did up to 91 iterations in all cases while node did 40 in all cases. Single iterations for Go were ~3.5s 95 percentile while Node was ~8.94 percentile. 
+Go outperformed Node by 125%. Go did up to 91 iterations in all cases while node did 40 in all cases. Single iterations for Go were ~3.5s 95 percentile while Node was ~8.94 percentile. 
 
 #### Resource overhead
 
