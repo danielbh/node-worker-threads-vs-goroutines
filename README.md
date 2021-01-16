@@ -78,7 +78,7 @@ Go outperformed Node by 125%. Go did up to 91 iterations in all cases while node
 
 #### Resource overhead
 
-Node used up to 1.4% host memory which is 444 mb in this case. While go never even went above 0.1%. This makes sense given that goroutines are much more lightweight than threads.
+Node used up to 1.4% host memory which is 448 MB in this case. While go never even went above 0.1%. This makes sense given that goroutines are much more lightweight than threads.
 
 For node something of concern regarding memory was that memory seemed to increase for each test. I did not restart the node server between tests. It seems there might be a memory leak somewhere. Not sure where. I looked at code, nothing seems obvious to me. Further work needed to determine cause.
 
