@@ -1,0 +1,56 @@
+    checks.....................: 100.00% ✓ 40   ✗ 0
+    data_received..............: 6.2 kB  183 B/s
+    data_sent..................: 3.6 kB  107 B/s
+    http_req_blocked...........: avg=1.12ms   min=1.6µs  med=2.95µs  max=4.6ms   p(90)=4.49ms   p(95)=4.55ms
+    http_req_connecting........: avg=663.47µs min=0s     med=0s      max=2.72ms  p(90)=2.65ms   p(95)=2.69ms
+    http_req_duration..........: avg=8.37s    min=8.21s  med=8.37s   max=8.56s   p(90)=8.46s    p(95)=8.49s
+    http_req_receiving.........: avg=84.42µs  min=49.8µs med=82.85µs max=125.3µs p(90)=105.76µs p(95)=110.88µs
+    http_req_sending...........: avg=23.48µs  min=7.6µs  med=13.85µs max=82.5µs  p(90)=41.62µs  p(95)=47.07µs
+    http_req_tls_handshaking...: avg=0s       min=0s     med=0s      max=0s      p(90)=0s       p(95)=0s
+    http_req_waiting...........: avg=8.37s    min=8.21s  med=8.37s   max=8.56s   p(90)=8.46s    p(95)=8.49s
+    http_reqs..................: 40      1.186611/s
+    iteration_duration.........: avg=8.37s    min=8.21s  med=8.37s   max=8.57s   p(90)=8.47s    p(95)=8.49s
+    iterations.................: 40      1.186611/s
+    vus........................: 10      min=10 max=10
+    vus_max....................: 10      min=10 max=10
+
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 12 daniel    20   0   36.3g 705064  13904 S 1005.0   0.6  28:53.84 node
+
+    checks.....................: 100.00% ✓ 40   ✗ 0
+    data_received..............: 6.2 kB  183 B/s
+    data_sent..................: 3.6 kB  107 B/s
+    http_req_blocked...........: avg=1.1ms    min=1.7µs  med=3.04µs max=4.5ms   p(90)=4.44ms   p(95)=4.48ms
+    http_req_connecting........: avg=640.72µs min=0s     med=0s     max=2.63ms  p(90)=2.57ms   p(95)=2.58ms
+    http_req_duration..........: avg=8.38s    min=8.25s  med=8.38s  max=8.56s   p(90)=8.47s    p(95)=8.49s
+    http_req_receiving.........: avg=87.55µs  min=56.7µs med=88.3µs max=115.1µs p(90)=104.62µs p(95)=112.7µs
+    http_req_sending...........: avg=22.42µs  min=8.3µs  med=19.7µs max=52.5µs  p(90)=34.56µs  p(95)=40.92µs
+    http_req_tls_handshaking...: avg=0s       min=0s     med=0s     max=0s      p(90)=0s       p(95)=0s
+    http_req_waiting...........: avg=8.38s    min=8.25s  med=8.38s  max=8.56s   p(90)=8.47s    p(95)=8.49s
+    http_reqs..................: 40      1.18334/s
+    iteration_duration.........: avg=8.38s    min=8.25s  med=8.38s  max=8.57s   p(90)=8.47s    p(95)=8.5s
+    iterations.................: 40      1.18334/s
+    vus........................: 10      min=10 max=10
+    vus_max....................: 10      min=10 max=10
+
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 12 daniel    20   0   36.3g 705064  13904 S 1007.0   1.0  28:53.84 node
+
+    checks.....................: 100.00% ✓ 40   ✗ 0
+    data_received..............: 6.2 kB  183 B/s
+    data_sent..................: 3.6 kB  107 B/s
+    http_req_blocked...........: avg=1.05ms   min=1.9µs  med=3.04µs  max=4.31ms  p(90)=4.21ms  p(95)=4.28ms
+    http_req_connecting........: avg=635.24µs min=0s     med=0s      max=2.59ms  p(90)=2.53ms  p(95)=2.55ms
+    http_req_duration..........: avg=8.39s    min=8.27s  med=8.4s    max=8.53s   p(90)=8.45s   p(95)=8.5s
+    http_req_receiving.........: avg=85.33µs  min=43.2µs med=84.2µs  max=123.7µs p(90)=107.7µs p(95)=113.33µs
+    http_req_sending...........: avg=20.9µs   min=10.1µs med=14.65µs max=69.6µs  p(90)=31.91µs p(95)=38.65µs
+    http_req_tls_handshaking...: avg=0s       min=0s     med=0s      max=0s      p(90)=0s      p(95)=0s
+    http_req_waiting...........: avg=8.39s    min=8.27s  med=8.4s    max=8.53s   p(90)=8.45s   p(95)=8.5s
+    http_reqs..................: 40      1.186692/s
+    iteration_duration.........: avg=8.39s    min=8.27s  med=8.4s    max=8.53s   p(90)=8.45s   p(95)=8.5s
+    iterations.................: 40      1.186692/s
+    vus........................: 10      min=10 max=10
+    vus_max....................: 10      min=10 max=10
+    
+ PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 12 daniel    20   0   36.3g 705064  13904 S 1005.0   1.4  28:53.84 node

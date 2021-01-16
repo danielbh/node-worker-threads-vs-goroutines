@@ -1,0 +1,59 @@
+
+    checks.....................: 100.00% ✓ 90   ✗ 0
+    data_received..............: 14 kB   442 B/s
+    data_sent..................: 8.2 kB  266 B/s
+    http_req_blocked...........: avg=1.35ms   min=744.4µs med=916.45µs max=4.6ms   p(90)=4.33ms   p(95)=4.46ms
+    http_req_connecting........: avg=1.09ms   min=702.7µs med=855.35µs max=2.71ms  p(90)=2.59ms   p(95)=2.64ms
+    http_req_duration..........: avg=3.38s    min=3.14s   med=3.38s    max=3.62s   p(90)=3.51s    p(95)=3.56s
+    http_req_receiving.........: avg=104.69µs min=62.4µs  med=104µs    max=171.1µs p(90)=127.51µs p(95)=137.71µs
+    http_req_sending...........: avg=60.41µs  min=25.4µs  med=62.05µs  max=87.3µs  p(90)=77.7µs   p(95)=79.45µs
+    http_req_tls_handshaking...: avg=0s       min=0s      med=0s       max=0s      p(90)=0s       p(95)=0s
+    http_req_waiting...........: avg=3.38s    min=3.14s   med=3.38s    max=3.62s   p(90)=3.51s    p(95)=3.56s
+    http_reqs..................: 90      2.929545/s
+    iteration_duration.........: avg=3.38s    min=3.14s   med=3.38s    max=3.62s   p(90)=3.51s    p(95)=3.57s
+    iterations.................: 90      2.929545/s
+    vus........................: 10      min=10 max=10
+    vus_max....................: 10      min=10 max=10
+
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+23683 daniel    20   0 1750652   5852   2464 R 1000   0.0   2:11.44 test
+
+    checks.....................: 100.00% ✓ 91   ✗ 0
+    data_received..............: 14 kB   427 B/s
+    data_sent..................: 8.3 kB  257 B/s
+    http_req_blocked...........: avg=1.35ms   min=717.9µs med=965.2µs max=4.41ms  p(90)=4.29ms  p(95)=4.35ms
+    http_req_connecting........: avg=1.11ms   min=678.8µs med=899.8µs max=2.76ms  p(90)=2.63ms  p(95)=2.69ms
+    http_req_duration..........: avg=3.34s    min=2.22s   med=3.35s   max=3.61s   p(90)=3.48s   p(95)=3.54s
+    http_req_receiving.........: avg=105.26µs min=64.5µs  med=105µs   max=139.7µs p(90)=124.3µs p(95)=132.6µs
+    http_req_sending...........: avg=61.39µs  min=28.6µs  med=62.4µs  max=90.1µs  p(90)=78.6µs  p(95)=84.3µs
+    http_req_tls_handshaking...: avg=0s       min=0s      med=0s      max=0s      p(90)=0s      p(95)=0s
+    http_req_waiting...........: avg=3.34s    min=2.22s   med=3.35s   max=3.61s   p(90)=3.48s   p(95)=3.54s
+    http_reqs..................: 91      2.829529/s
+    iteration_duration.........: avg=3.34s    min=2.22s   med=3.36s   max=3.62s   p(90)=3.49s   p(95)=3.54s
+    iterations.................: 91      2.829529/s
+    vus........................: 1       min=1  max=10
+
+
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+23683 daniel    20   0 1750652   5852   2464 R 1005   0.0   2:11.44 test
+
+    ✓ is status 200
+
+    checks.....................: 100.00% ✓ 90   ✗ 0
+    data_received..............: 14 kB   442 B/s
+    data_sent..................: 8.2 kB  266 B/s
+    http_req_blocked...........: avg=1.27ms   min=740.2µs med=919.85µs max=4.26ms  p(90)=3.66ms   p(95)=4.11ms
+    http_req_connecting........: avg=1.04ms   min=699.2µs med=851.85µs max=2.58ms  p(90)=2.14ms   p(95)=2.52ms
+    http_req_duration..........: avg=3.37s    min=3.11s   med=3.38s    max=3.57s   p(90)=3.48s    p(95)=3.51s
+    http_req_receiving.........: avg=106.22µs min=66.9µs  med=106.5µs  max=150.1µs p(90)=121.24µs p(95)=135.04µs
+    http_req_sending...........: avg=59.61µs  min=18.5µs  med=61.7µs   max=100.7µs p(90)=78.39µs  p(95)=83.66µs
+    http_req_tls_handshaking...: avg=0s       min=0s      med=0s       max=0s      p(90)=0s       p(95)=0s
+    http_req_waiting...........: avg=3.37s    min=3.11s   med=3.38s    max=3.57s   p(90)=3.48s    p(95)=3.51s
+    http_reqs..................: 90      2.931418/s
+    iteration_duration.........: avg=3.37s    min=3.11s   med=3.39s    max=3.57s   p(90)=3.48s    p(95)=3.51s
+    iterations.................: 90      2.931418/s
+    vus........................: 10      min=10 max=10
+    vus_max....................: 10      min=10 max=10
+
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+23683 daniel    20   0 1750652   5852   2464 R 1005   0.0   2:11.44 test

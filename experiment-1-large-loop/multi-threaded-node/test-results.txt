@@ -1,0 +1,57 @@
+    checks.....................: 100.00% ✓ 40   ✗ 0
+    data_received..............: 6.2 kB  183 B/s
+    data_sent..................: 3.6 kB  107 B/s
+    http_req_blocked...........: avg=1.01ms   min=1.8µs med=2.9µs   max=4.16ms  p(90)=4.05ms  p(95)=4.09ms
+    http_req_connecting........: avg=620.24µs min=0s    med=0s      max=2.55ms  p(90)=2.48ms  p(95)=2.49ms
+    http_req_duration..........: avg=8.37s    min=8.25s med=8.36s   max=8.62s   p(90)=8.45s   p(95)=8.48s
+    http_req_receiving.........: avg=87.25µs  min=57µs  med=84.85µs max=136.9µs p(90)=111.6µs p(95)=115.04µs
+    http_req_sending...........: avg=26.02µs  min=9.4µs med=22.5µs  max=84.9µs  p(90)=50.13µs p(95)=55.78µs
+    http_req_tls_handshaking...: avg=0s       min=0s    med=0s      max=0s      p(90)=0s      p(95)=0s
+    http_req_waiting...........: avg=8.37s    min=8.25s med=8.36s   max=8.62s   p(90)=8.45s   p(95)=8.48s
+    http_reqs..................: 40      1.186656/s
+    iteration_duration.........: avg=8.37s    min=8.25s med=8.36s   max=8.62s   p(90)=8.46s   p(95)=8.49s
+    iterations.................: 40      1.186656/s
+    vus........................: 10      min=10 max=10
+
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 12 daniel    20   0   36.3g 705064  13904 S 1006.0   0.5  28:53.84 node
+
+    
+      checks.....................: 100.00% ✓ 40   ✗ 0
+    data_received..............: 6.2 kB  183 B/s
+    data_sent..................: 3.6 kB  107 B/s
+    http_req_blocked...........: avg=1.17ms  min=1.9µs  med=2.9µs   max=4.79ms   p(90)=4.7ms    p(95)=4.74ms
+    http_req_connecting........: avg=710.6µs min=0s     med=0s      max=2.91ms   p(90)=2.84ms   p(95)=2.86ms
+    http_req_duration..........: avg=8.39s   min=8.24s  med=8.4s    max=8.58s    p(90)=8.48s    p(95)=8.51s
+    http_req_receiving.........: avg=84.59µs min=29.1µs med=85.95µs max=128.09µs p(90)=111.01µs p(95)=112.78µs
+    http_req_sending...........: avg=19.47µs min=8.2µs  med=13.2µs  max=86.1µs   p(90)=34.01µs  p(95)=37.72µs
+    http_req_tls_handshaking...: avg=0s      min=0s     med=0s      max=0s       p(90)=0s       p(95)=0s
+    http_req_waiting...........: avg=8.39s   min=8.24s  med=8.4s    max=8.58s    p(90)=8.48s    p(95)=8.51s
+    http_reqs..................: 40      1.184294/s
+    iteration_duration.........: avg=8.39s   min=8.24s  med=8.4s    max=8.58s    p(90)=8.48s    p(95)=8.51s
+    iterations.................: 40      1.184294/s
+    vus........................: 10      min=10 max=10
+    vus_max....................: 10      min=10 max=10
+
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 12 daniel    20   0   36.3g 705064  13904 S 1002.0   0.9  28:53.84 node
+
+    checks.....................: 100.00% ✓ 40   ✗ 0
+    data_received..............: 6.2 kB  183 B/s
+    data_sent..................: 3.6 kB  107 B/s
+    http_req_blocked...........: avg=1.06ms   min=1.8µs  med=3µs     max=4.39ms  p(90)=4.25ms   p(95)=4.31ms
+    http_req_connecting........: avg=643.69µs min=0s     med=0s      max=2.63ms  p(90)=2.57ms   p(95)=2.58ms
+    http_req_duration..........: avg=8.4s     min=8.27s  med=8.4s    max=8.58s   p(90)=8.47s    p(95)=8.49s
+    http_req_receiving.........: avg=90.24µs  min=56.4µs med=89.85µs max=148.3µs p(90)=102.43µs p(95)=115.51µs
+    http_req_sending...........: avg=18.21µs  min=8.6µs  med=12.9µs  max=44.2µs  p(90)=31.19µs  p(95)=39.87µs
+    http_req_tls_handshaking...: avg=0s       min=0s     med=0s      max=0s      p(90)=0s       p(95)=0s
+    http_req_waiting...........: avg=8.4s     min=8.27s  med=8.4s    max=8.58s   p(90)=8.47s    p(95)=8.49s
+    http_reqs..................: 40      1.182725/s
+    iteration_duration.........: avg=8.4s     min=8.27s  med=8.4s    max=8.59s   p(90)=8.47s    p(95)=8.49s
+    iterations.................: 40      1.182725/s
+    vus........................: 10      min=10 max=10
+    vus_max....................: 10      min=10 max=10
+
+
+ PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 12 daniel    20   0   36.3g 705064  13904 S 1000.0   1.4  28:53.84 node

@@ -2,6 +2,16 @@ const http = require('http')
 const { Worker } = require('worker_threads')
 
 const server = http.createServer((req, res) => {
+
+    // RangeError: byte length of Int32Array should be a multiple of 4
+    // no such thing as "SharedObjectBuffer" but you could do something like this:
+    // https://stackoverflow.com/questions/51053222/nodejs-worker-threads-shared-object-store
+    let sharedBuffer = new SharedArrayBuffer(4);
+    // only works with 32bit numbers, but typical use-case not an issue
+    let sharedArray = new Int32Array(sharedBuffer);
+
+    sharedArray[0] = 0
+
     const worker = new Worker(__dirname + '/worker.js', {
         workerData: {},
       });
@@ -21,7 +31,7 @@ const server = http.createServer((req, res) => {
     //     }
     // })
 
-    worker.postMessage('lets do it')
+    worker.postMessage(sharedArray)
 
 })
 
