@@ -19,6 +19,12 @@ This is a comparison between node v14.15.4 LTS worker threads and go1.15.6 gorou
 * Metrics will be provided for latency. Each request will conclude it's work on response from web server
 * Metrics will be provided for go memory and cpu overhead. These will be obtained by looking at top in terminal, and observing max values.
 
+### Hardware
+
+* OS: Windows WSL Ubuntu
+* Processor: i9-9000K 8 cores & 16 threads
+* RAM: 32GB
+
 ## Experiments
 
 ### Experiment One: 
@@ -62,13 +68,7 @@ Go
 | 90  |  3.55 | 3.14  | 3.62  | 1004  | 0.0  |
 | 91  | 3.5  |  2.3 | 3.61 | 1004  |  0.0  |
 
-### Hardware
-
-* OS: Windows WSL Ubuntu
-* Processor: i9-9000K 8 cores & 16 threads
-* RAM: 32GB
-
-### Analysis
+## Analysis
 
 Rarely when comparing technologies used to make similar solutions is the decision so clear in my mind. The results from this experiment clearly lean toward Go as the better choice for writing CPU-intensive parallel/concurrent workloads.
 
