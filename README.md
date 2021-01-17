@@ -1,4 +1,4 @@
-# node-workers-vs-goroutines
+# node-worker-threads-vs-goroutines
 
 This is a comparison between node v14.15.4 LTS worker threads and go1.15.6 goroutines. We will compare:
 
